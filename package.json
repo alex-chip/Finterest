@@ -1,0 +1,28 @@
+{
+  "name": "finterest",
+  "version": "0.0.1",
+  "description": "Clon de Pinterest, con NodeJS, Exoress, Multer y MongoDB",
+  "main": "/src/index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "npm run dev"
+  },
+  "keywords": [
+    "NodeJS"
+  ],
+  "author": "Alex Chip",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "fs-extra": "^7.0.1",
+    "mongoose": "^5.4.15",
+    "morgan": "^1.9.1",
+    "multer": "^1.4.1",
+    "timeago.js": "^4.0.0-beta.2",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
